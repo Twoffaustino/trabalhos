@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <audio src="" id="audio-source" ></audio>
+   <!-- home section -->
+
+   <section class="home-section">
+        <!-- carrosel -->
+        <div class="carrosel">
+            <img src="img/306902014_1611056895963245_8455985860326615491_n.jpg" class="active">
+            <img src="img/baby do mundinho.jpg" alt="">
+            <img src="img/so respeitam assim.jpg" alt="">
+            <img src="img/383086164_1487786925400606_6157706872188929976_n.jpg" alt="">
+            <img src="img/383086164_1487786925400606_6157706872188929976_n.jpg" alt="" >
+        </div>
+
+        <!-- play list -->
+        <section class="inicial">
+            <div class="queue active">
+                <div class="queue-caver">
+                    <img src="img/134660006_849776629152036_6615444938898989168_n.jpg" alt="" id="imagem">
+                    
+                    
+                </div>  
+            </div>
+                
+            <div class="queue">
+                <div class="queue-caver">
+                    <img src="img/238550869_1014674689276889_1389864614248077346_n.jpg" alt="">
+            
+                </div>
+                <p class="name">Song 2</p>
+            </div>
+        </section>
+        
+   </section>
+   <section class="music-player-section ">
+        <i class='bx bx-chevron-left' id="icon"></i>
+        <i class='bx bxs-grid' id="icon"></i>
+
+        <h1 class="current-song-name">Song 1</h1>
+        <p class="artist-name hide">Artista 1</p>
+
+        <img src="img/ariel.jpg" class="cover">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0">
+            <p class="current-time hide">00 : 00</p>
+            <p class="duration hide">00 : 00</p>
+        </div>
+   
+        <div class="controls">
+            <i class='bx bx-redo active'></i>
+            <div class="main">
+                <i class='bx bx-skip-previous active' ></i>
+                <i class='bx bx-play active'></i>
+                <i class='bx bx-pause ' id="pause"></i>
+                <i class='bx bx-skip-next active'></i>
+            </div>
+             <input type="range" class="volume-slider" max="1" value="1" step="0.1">
+            <i class='bx bxs-volume-full'></i>
+           
+        </div>
+
+   </section>
+     
+   <section class="playlist ">
+        <i class='bx bx-chevron-left' id="icon"></i>
+
+        <h1 class="title">Playlist</h1>
+
+        <div class="queue active">
+            <div class="queue-caver">
+                <img src="img/134660006_849776629152036_6615444938898989168_n.jpg" alt="">
+                
+
+            </div>
+            <p class="name"></p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/238550869_1014674689276889_1389864614248077346_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 2</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/299842134_1589662814769320_1492852710166176204_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 3</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/306902014_1611056895963245_8455985860326615491_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 4</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/346891089_280928274353014_9017177882976765719_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 5</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/375905647_1350908748865720_3643191538572097179_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 6</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/383086164_1487786925400606_6157706872188929976_n.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 7</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-caver">
+                <img src="img/ariel.jpg" alt="">
+                <i class='bx bx-pause' ></i>
+
+            </div>
+            <p class="name">Song 8</p>
+        </div>
+
+   </section>
+
+ <script src="data.js"></script>
+ <script src="app.js"></script>
+
+   
+</body>
+</html>
