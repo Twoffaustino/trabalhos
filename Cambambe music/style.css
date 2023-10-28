@@ -182,10 +182,14 @@ span{
 }
 
  span.active{
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     opacity: 0.5;
 
+}
+
+#iconi{
+    font-size: 30px;
 }
 
 .music-player-section.active .controls span.active{
