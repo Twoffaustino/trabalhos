@@ -189,7 +189,7 @@ span{
 }
 
 #iconi{
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .music-player-section.active .controls span.active{
@@ -201,7 +201,7 @@ span{
 .controls .main i{
     margin: 0 5px;
     display: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .controls .main i.active{
