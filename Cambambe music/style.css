@@ -201,6 +201,7 @@ span{
 .controls .main i{
     margin: 0 5px;
     display: none;
+    font-size: 30px;
 }
 
 .controls .main i.active{
