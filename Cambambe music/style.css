@@ -364,9 +364,8 @@ span{
 }
 
 .search{
-    height: 25px;
+   
     margin-top: 10px;
-    
     border-radius: 20px;
     color: grey;
     background: rgb(184, 184, 184, .1);
@@ -374,10 +373,10 @@ span{
 }
 
 .search input{
-    padding: 5px;
-    height: 15px;
+    padding: 9px;
+    height: 5px;
     font-size: 15px;
-    margin-left: 20px;
+    
     background: none;
     border: none;
     outline: none;
