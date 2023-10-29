@@ -401,7 +401,7 @@ a{
     margin-left: 40px;
     padding: 5px;
     border-radius: 15px;
-    font-size: 5px;
+    font-size: 8px;
     text-decoration: none;
     margin-top: 10px;
 }
@@ -413,8 +413,8 @@ a{
 }
 
 .cantor img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 6px;
     
     
@@ -427,7 +427,7 @@ a{
 }
 
 .cantor h1 {
-    font-size: 10px;
+    font-size: 6px;
     text-align: center;
 }
 
