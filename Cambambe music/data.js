@@ -47,6 +47,12 @@ let songs = [
     path: "music/Tentaçaão  (M.Gang) P_k-1_022052.mp3",
     artist: "TENTAÇÃO",
     cover: "img/jelex.jpg"
+  },
+  {
+    name: "JAY-SON ft MAURO GENESYS",
+    path: "music/Jay-son ft Mauro genesys.mp3.mpeg",
+    artist: "ESTOU BEM",
+    cover: "img/Jay-son ft Mauro Genesys.mp3.jpg"
   }, 
  
 ]

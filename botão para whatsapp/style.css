@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+img{
+    width: 50px;
+}
+
+div{
+    display: flex;
+    background-color: green;
+    width: 250px;
+    padding: 5px;
+    border-radius: 18px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-size: 20px;
+    
+}
